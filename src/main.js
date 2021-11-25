@@ -23,7 +23,7 @@ function getStagedFiles(data){
 	return `${data}`
 	.split('\n')
 	.map(value => value.replace(/^\s+|\s+$/gm,''))
-	.filter(value => value.length > 0 && value.includes('src/app') && value.includes('.ts') && !(value.includes('app.config.ts') || value.includes('app.module.ts'))   );
+	.filter(value => value.length > 0 && value.includes('src/app') && value.includes('.ts') && !(value.includes('app.config.ts') || value.includes('.module.ts'))   );
 }
 
 function getSpecFiles(stagedFiles){
