@@ -4,29 +4,28 @@
   "description": "A CLI to test Angular spec files on pre-commit",
   "main": "src/index.js",
   "bin": {
-   "@coderunscode/karma-test-staged": "bin/karma-test-staged",
-   "karma-test-staged": "bin/karma-test-staged"
+    "@coderunscode/karma-test-staged": "bin/karma-test-staged",
+    "karma-test-staged": "bin/karma-test-staged"
   },
   "publishConfig": {
-   "access": "public"
+    "access": "public"
   },
   "scripts": {
     "build-link": "npm link",
-	"upgrade-version": "npm version"
+    "upgrade-version": "npm version"
   },
   "files": [
     "bin/",
-	"src/"
+    "src/"
   ],
   "keywords": [
-   "cli",
-   "karma-test-staged"
+    "cli",
+    "karma-test-staged"
   ],
   "author": "Obothlale Kganane",
   "license": "MIT",
   "dependencies": {
     "@angular/cli": "^13.0.3",
-    "esm": "^3.2.25",
-    "listr": "^0.14.3"
+    "esm": "^3.2.25"
   }
 }
