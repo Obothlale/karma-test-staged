@@ -1,7 +1,8 @@
 {
   "name": "@coderunscode/karma-test-staged",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library to test git staged Angular spec files on pre-commit",
+  "repository":"https://github.com/Obothlale/karma-test-staged.git",
   "main": "src/index.js",
   "bin": {
     "@coderunscode/karma-test-staged": "bin/karma-test-staged",
