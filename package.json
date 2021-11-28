@@ -20,8 +20,12 @@
     "src/"
   ],
   "keywords": [
-    "cli",
-    "karma-test-staged"
+    "angular",
+    "test",
+    "karma",
+    "git",
+    "hooks",
+    "pre-commit"
   ],
   "author": "Obothlale Kganane",
   "license": "MIT",

@@ -9,6 +9,7 @@ Install karma-test-staged in a git managed Angular 2+ project
 
 # How to use karma-test-staged
 You can execute karma-test-staged within your project
+
 ```npx karma-test-staged```
 
 You would most likely want to integrate and execute **karma-test-staged** with **husky**. Inside a script file called **.husky/pre-commit**, just write **```npx karma-test-staged```**
