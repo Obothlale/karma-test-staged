@@ -4,6 +4,7 @@
 
 # Install
 Install karma-test-staged in a git managed Angular 2+ project
+
 ```npm install @coderunscode/karma-test-staged --save-dev```
 
 # How to use karma-test-staged
